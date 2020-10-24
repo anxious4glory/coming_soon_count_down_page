@@ -1,0 +1,92 @@
+html, body {
+    background: url("img/bg.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+@media(max-width:768px) {
+    #logo img {
+        height: 100px !important;
+        margin-top: 50px !important;
+        margin-bottom: 40px !important;
+    }
+    #intro p {
+        font-size: 0.7em !important;
+    }
+    #countDown {
+        font-size: 1.3em !important;
+    }
+    #social .fab{
+        padding: 0px 2px !important;
+        font-size: 2.5em;
+    }
+    #signup .btn{
+        margin-top: 30px;
+    }
+}
+@media(min-width:358px) and (max-width:588px) {
+    /* #logo img {
+        height: 150px !important;
+    } */
+    #signup .btn{
+        position: relative;
+        top: -15px;
+    }
+}
+#logo img {
+    margin-top: 20px;
+    height: 200px;
+}
+#intro p {
+    padding-top:15px;
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: 'BioRhyme', serif;
+}
+#countDown {
+    color: white;
+    font-size: 3em;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    top: -5px;
+}
+#social .fab {
+    color: white;
+    padding: 5px 15px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+#social .twitter:hover {
+    color: #00acee;
+    bottom: 5px;
+}
+#social .facebook:hover {
+    color:#3b5998;
+    bottom: 5px;
+}
+#social .github:hover {
+    color: #211F1F;
+    bottom: 5px;
+}
+#social .whatsapp:hover {
+    color:#4FCE5D;
+    bottom: 5px;
+}
+#signup {
+    text-align: center;
+    margin-top: 40px;
+}
+#signup .form-inline {
+    display: block;
+}
+#signup .btn{
+    background-color: rgba(161, 186, 226,0.5);
+    border: #4FCE5D;
+}
+#signup .btn:hover{
+    background-color:#4FCE5D;
+}
